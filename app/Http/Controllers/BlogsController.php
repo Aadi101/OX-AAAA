@@ -83,4 +83,8 @@ class BlogsController extends Controller
     {
         //
     }
-}
+	
+	public function new()
+	{
+		
+	}
