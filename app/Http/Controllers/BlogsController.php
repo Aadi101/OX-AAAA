@@ -69,7 +69,8 @@ class BlogsController extends Controller
      */
     public function update(Request $request, blogs $blogs)
     {
-        //
+        $new = Blog::all();
+		dd($new);
     }
 
     /**
