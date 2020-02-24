@@ -68,17 +68,7 @@ class BlogPostController extends Controller
      * @param  \App\BlogPost  $blogPost
      * @return \Illuminate\Http\Response
      */
-    public function show(BlogPost $blogPost)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\BlogPost  $blogPost
-     * @return \Illuminate\Http\Response
-     */
+    
     public function edit($id)
     {
         $post = BlogPost::find($id);
