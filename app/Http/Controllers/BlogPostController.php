@@ -101,7 +101,7 @@ class BlogPostController extends Controller
         $post = BlogPost::find($id);
        // dd($id);
         $post->delete();
-
+		//sudu manike mage raththran
         return response()->json('deleted!');
     }
 }
