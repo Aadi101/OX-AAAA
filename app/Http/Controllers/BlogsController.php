@@ -57,7 +57,7 @@ class BlogsController extends Controller
      */
     public function edit(blogs $blogs)
     {
-        //
+        //hellow hellow nama mkkd oyage
     }
 
     /**
