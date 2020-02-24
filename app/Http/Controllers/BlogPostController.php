@@ -71,8 +71,8 @@ class BlogPostController extends Controller
     
     public function edit($id)
     {
-        $post = BlogPost::find($id);
-        return response()->json($post);
+        //$post = BlogPost::find($id);
+        //return response()->json($post);
     }
 
     /**
